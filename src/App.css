@@ -1,0 +1,172 @@
+body{
+  font-size:20px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.Header{
+  height: 64px;
+  width: 100%;
+  background-color: rgb(0, 188, 212);
+  text-align: center;
+  line-height: 64px;
+}
+.Header a{
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+   text-decoration: none;
+}
+.New{
+  width: 100%;
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  padding-bottom: 20px;
+}
+.New .h1{
+  text-align: center;
+  color:#333;
+}
+.New input{
+  width: 100%;
+   height: 48px;
+    border: 1px solid rgb(221, 221, 221);
+     border-radius: 5px;
+      font-size: 1em;
+      padding: 10px;
+      box-sizing: border-box;
+}
+.New lable{
+  display: block;
+   font-size: 0.9em;
+   color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 10px;
+}
+.New .box1{
+  width: 90%;
+  margin:0 auto;
+}
+.New .box1 input{
+  width: 100%;
+  height: 40px;
+}
+.New .box2{
+
+  width: 90%;
+  margin:0 auto;
+  margin-top: 15px;
+}
+.New .box2 input{
+  width: 100%;
+  height: 40px;
+}
+.New .box3{
+
+  width: 90%;
+  margin:0 auto;
+  margin-top: 15px;
+}
+.New .box3 textarea{
+  width: 100%;
+   height: 100%;
+   border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+     font-size: 1em;
+      padding: 10px;
+       box-sizing: border-box;
+}
+.New .box4 {
+  width: 40%;
+  margin:0 auto;
+}
+.New button{
+  width: 120px;
+  height: 36px;
+  border: none;
+  background-color: rgb(255, 64, 129);
+  font-size: 1em; color: rgb(255, 255, 255);
+  display: inline-block;
+  margin: 20px auto 0px;
+  border-radius: 20px;
+}
+.New .new-a{
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 1em;
+  color: rgb(0, 188, 212);
+  opacity: 0.8;
+  text-decoration: none;
+
+}
+.postlist-a{
+  display: block;
+  margin: 30px auto;
+  width: 120px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  background-color: rgb(255, 64, 129);
+  font-size: 1em; color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 20px;
+}
+.postlist-list{
+  position: relative;
+  width: 100%;
+  height: 60px;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px; padding: 16px;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+}
+.list-a{
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+.list-a> a{
+ display: inline-block;
+ font-size: 0.9em;
+ color: rgb(0, 188, 212);
+ opacity: 0.8;
+ text-decoration: none;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+.show-box{
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 16px;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+}
+.show-cag{
+ position:absolute;
+ top:0px;
+ right:10px;
+ background-color: #199;
+ padding:5px;
+ color:#fff;
+ border-radius:0px  0px 5px 5px;
+}
+.show-title{
+  text-align: center;
+}
+.delete-action {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #00bcd4;
+  font-size: .9em;
+}
+.delete-action:hover {
+  cursor: pointer;
+}
